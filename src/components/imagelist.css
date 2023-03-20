@@ -1,6 +1,9 @@
 .image-list{
     columns: 6 200px;
     column-gap: 10px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    
 }
 
 img{

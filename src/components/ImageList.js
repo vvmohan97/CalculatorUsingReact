@@ -2,7 +2,7 @@ import React from 'react'
 import ImageShow from './ImageShow'
 import './imagelist.css'
 function ImageList({images}) {
-    console.log(images)
+    
     const renderedimages = images.map((image)=>{
         return <ImageShow image={image} key={image.id}/>
     })
